@@ -42,10 +42,6 @@ def parse_line(line):
     (15259, 96330)
     '''
 
-    # res = re.search('([0-9]+)', line)
-    # if res: 
-    #     n1 = int(res.group(0))
-    #     n2 = int(res.group(1))
     n1, n2 = [int(s) for s in line.split()]
     return (n1, n2)
 
